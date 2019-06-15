@@ -1,0 +1,144 @@
+
+    * {
+        background: #F2EFEA; /* fallback for old browsers */
+        font-family: 'Poppins', sans-serif;
+        color: #403D58;
+    }
+
+    /* Header CSS */
+
+    h1 {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        margin-left: 90px;
+        margin-right: 90px;
+        padding: 15px;
+        border: 5px solid #403D58;
+    }
+
+    /* Tooltip Styling */
+
+    div.tooltip {   
+        position: absolute;         
+        text-align: center;         
+        /*height: 28px;                 */
+        padding: 2px;               
+        font: 12px sans-serif;      
+        background: lightsteelblue; 
+        border: 0px;        
+        border-radius: 8px;         
+        pointer-events: none;   
+        display: block;     
+    }
+
+    /* Button Styling */
+
+    button{
+        background:#00272B;
+        color:#F2EFEA;
+        border:none;
+        position:relative;
+        height:60px;
+        font-size:14px;
+        padding:0px 6px;
+        cursor:pointer;
+        transition:800ms ease all;
+        outline:none;
+        margin:10px;
+      }
+
+      button:hover{
+        background:#F2EFEA;
+        color:#00272B;
+      }
+
+      button:before,button:after{
+        content:'';
+        position:absolute;
+        top:0;
+        right:0;
+        height:2px;
+        width:0;
+        background: #00272B;
+        transition:400ms ease all;
+      }
+      button:after{
+        right:inherit;
+        top:inherit;
+        left:0;
+        bottom:0;
+      }
+      button:hover:before,button:hover:after{
+        width:100%;
+        transition:800ms ease all;
+      }
+
+    #legend {
+        margin-top: 15px;
+        text-align: right;
+    }
+
+    /* Format X and Y Axis */
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: #00272B;
+        shape-rendering: crispEdges;
+    }
+    .axis text {
+        font-size: 11px;
+        stroke:#00272B;
+    }
+
+    .title text {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+
+    #rawdata {
+        margin-top: 5px;
+        border: 3px solid #403D58;
+        margin-left: 15px;
+        text-align: center;
+    }
+    
+    .display {
+        text-align: center;
+    }
+
+    .row {
+        display: flex;
+    }
+      
+    .column {
+       flex: 30%;
+       padding: 2px;
+     }
+
+     .column2 {
+        flex: 40%;
+        padding: 3px;
+      }
+
+    /* Body Styling */
+
+    #legend {
+        margin-top: 5px;
+        /*border: 3px solid #403D58;*/
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    #main {
+        text-align: center;
+    }
+

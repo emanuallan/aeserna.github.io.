@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<title> Allan Serna </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Montserrat", sans-serif
+    }
+
+    .w3-row-padding img {
+        margin-bottom: 12px
+    }
+
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {
+        width: 120px;
+        background: #222;
+    }
+
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {
+        margin-left: 120px
+    }
+
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {
+        #main {
+            margin-left: 0
+        }
+    }
+</style>
+
+<body class="w3-black">
+
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+        <!-- Avatar image in top left corner -->
+        <img src="./img/allan-logo.jpg" alt="allan" width="100%" style="border-bottom: 1px #BE2BFD solid">
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>home</p>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>about</p>
+        </a>
+        <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-cubes w3-xxlarge"></i>
+            <p>projects</p>
+        </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-send w3-xxlarge"></i>
+            <p>contact</p>
+        </a>
+    </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">home</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">about</a>
+            <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">projects</a>
+            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">contact</a>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+        <!-- Header/Home -->
+        <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+            <h1 class="w3-jumbo"> allan serna.</h1>
+            <p style="color: #BE2BFD">web developer.</p>
+            <img src="./img/allan-logo.jpg" alt="allan" class="w3-image" width="450" height="450">
+        </header>
+
+
+        <!-- About Section -->
+        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+            <h2 class="w3-text-light-grey"> <span style="color: #BE2BFD"> about</span> me </h2>
+            <hr style="width:200px" class="w3-opacity">
+            <p>Prior to pursuing a Computer Science Degree at Georgia Tech, I gained a curiosity for technology and
+                programming from my initial exposure to online games as a child. Early online community games such as
+                Millsberry, Runescape, and Club Penguin, to name a few, gaged my interest in learning on how programs,
+                such as games, can bring communities together. And eventually, initial innovations in social media
+                platforms such as MySpace and
+                Facebook demonstrated to me the potential that technology had. </p>
+            <p>Though, contradictory to what this background suggests, I grew up in school highly influeced by the arts.
+                Having
+                spent a majority of my time in school learning and practicing art, I was able to gain fundamental
+                visual arts skills that I now apply to my current work. I treat the front-end of my work as my canvas,
+                always
+                making sure that it is ready for a gallery-style presentation. Due to my enjoyment of technology and
+                the arts, this eventually led me to self-venture into graphic design, photoshop, and video and audio
+                editing where I could practice both of my passions. </p>
+            <p>I decided to pursue a STEM field in high
+                school and knew that computer science was my field of action because of its great calling for
+                technological advancement and creativity. This decision led me to Georgia Tech where I have been
+                attending since 2015. The rest of my story would be more fun to explain with pictures, therefore, I
+                invite you to learn more about me through my hobbies, volunteer work, and involvement on campus, down
+                below. Thank you.
+            </p>
+            <h3 class="w3-padding-16 w3-text-light-grey">my skills.</h3>
+            <p class="w3-wide">Photography</p>
+
+            <p class="w3-wide">Web Design</p>
+
+            <p class="w3-wide">Photoshop</p>
+
+            <!-- Testimonials -->
+            <h3 class="w3-padding-24 w3-text-light-grey">my experience.</h3>
+            <img src="./img/new-balance.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right"
+                style="width:90px;border-left: 4px #E41837 solid">
+            <p><span class="w3-large w3-margin-right"> Front-End Web Developer.</span> <span style="color: #ff0101">New
+                    Balance.</span> </p>
+            <p>Jane Doe saved us from a web disaster.</p><br><br>
+
+            <img src="/img/dispersive-logo.png" alt="Avatar" class="w3-left w3-circle w3-margin-right"
+                style="width:90px;border-left: 4px #0081FF solid">
+            <p><span class=" w3-large w3-margin-right"> Full-Stack Web Developer.</span> <span
+                    style="color:#4666FF">Dispersive Networks.</span> </p>
+            <p>No one is better than Jane Doe.</p><br><br>
+            <img src="/img/gt.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right"
+                style="width:90px;border-left: 4px grey solid">
+            <p><span class="w3-large w3-margin-right">WebDev Services Student Administrator.</span> <span
+                    style="color:#F5D580">Georgia Tech College of Computing - TSO. </span></p>
+            <p>No one is better than Jane Doe.</p>
+
+            <br>
+
+            <a href="./docs/resume.pdf" target="_blank" download><button
+                    class="w3-button w3-light-grey w3-padding-large w3-section">
+                    <i class="fa fa-download"></i> Download Resume
+                </button></a>
+            <!-- End About Section -->
+        </div>
+
+
+        <!-- Portfolio Section -->
+        <div class="w3-padding-64 w3-content" id="projects">
+            <h2 class="w3-text-light-grey">my <span style="color: #BE2BFD">projects</span>.</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+            <!-- Grid for projects -->
+            <div class="w3-row-padding" style="margin:0 -16px">
+                <div class="w3-half">
+                    <a href="http://purplepundit.co" target="_blank"><img src="/img/purple-pundit.jpg"
+                            style="width:100%"></a>
+                    <a href="https://github.com/JIC-8130/jic-8130-yca" target="_blank"><img src="/img/yoko.jpg"
+                            style="width:100%"></a>
+                    <a href="https://github.com/emanuallan/WaterSource" target="_blank"><img src="/img/watersource.jpg"
+                            style="width:100%"></a>
+                </div>
+
+                <div class="w3-half">
+                    <a href="./vis.html" target="_blank"><img src="/img/vis.png" style="width:100%"></a>
+                    <img src="/img/illuso2.jpg" style="width:100%">
+                    <a href="https://github.com/emanuallan/RoadTrip" target="_blank"><img src="/img/roadtrip.jpg"
+                            style="width:100%"></a>
+                </div>
+                <!-- End photo grid -->
+            </div>
+            <!-- End Portfolio Section -->
+        </div>
+
+
+        <!-- Contact Section -->
+        <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+            <h2 class="w3-text-light-grey"><span style="color: #BE2BFD">contact</span> me.</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+            <div class="w3-section">
+                <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Atlanta, Georgia, US
+                </p>
+                <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> +16155549168 </p>
+                <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>
+                    allanserna@gatech.edu
+                </p>
+            </div>
+            <!-- End Contact Section -->
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+            <a href="mailto:allanserna@gatech.edu"><i class="fa fa-envelope w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/allan-serna/" target="_blank"><i
+                    class="fa fa-linkedin w3-hover-opacity"></i></a>
+            <a href="https://twitter.com/emanuallan" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+            <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+                    class="w3-hover-text-green">github</a></p>
+            <!-- End footer -->
+        </footer>
+
+        <!-- END PAGE CONTENT -->
+    </div>
+
+</body>
+
+</html>
