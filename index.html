@@ -28,9 +28,7 @@
     }
 
     /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-    #main {
-        margin-left: 120px
-    }
+    #main {}
 
     /* Remove margins from "page content" on small screens */
     @media only screen and (max-width: 600px) {
@@ -40,114 +38,160 @@
     }
 </style>
 
-<body class="w3-black">
-
-    <!-- Icon Bar (Sidebar - hidden on small screens) -->
-    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-        <!-- Avatar image in top left corner -->
-        <img src="./img/allan-logo.jpg" alt="allan" width="100%" style="border-bottom: 1px #BE2BFD solid">
-        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-            <i class="fa fa-home w3-xxlarge"></i>
-            <p>home</p>
-        </a>
-        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-            <i class="fa fa-user w3-xxlarge"></i>
-            <p>about</p>
-        </a>
-        <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-            <i class="fa fa-cubes w3-xxlarge"></i>
-            <p>projects</p>
-        </a>
-        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-            <i class="fa fa-send w3-xxlarge"></i>
-            <p>contact</p>
-        </a>
-    </nav>
+<body class="w3-white">
 
     <!-- Navbar on small screens (Hidden on medium and large screens) -->
-    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">home</a>
-            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">about</a>
-            <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">projects</a>
-            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">contact</a>
+    <div class="w3-top" id="myNavbar">
+        <div class="w3-bar w3-white w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#" class="w3-bar-item w3-button" style="width:20% !important">home.</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width:20% !important">about.</a>
+            <a href="#projects" class="w3-bar-item w3-button" style="width:20% !important">projects.</a>
+            <a href="#resume" class="w3-bar-item w3-button" style="width:20% !important">resume.</a>
+            <a href="#contact" class="w3-bar-item w3-button" style="width:20% !important">contact.</a>
         </div>
     </div>
 
     <!-- Page Content -->
     <div class="w3-padding-large" id="main">
         <!-- Header/Home -->
-        <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-            <h1 class="w3-jumbo"> allan serna.</h1>
-            <p style="color: #BE2BFD">web developer.</p>
-            <img src="./img/allan-logo.jpg" alt="allan" class="w3-image" width="450" height="450">
+        <header class="w3-container w3-padding-32 w3-center w3-white" id="home">
+            <h1 class="w3-jumbo">allan <b>serna</b>.</h1>
+            <p>web developer.</p>
+            <img src="./img/allan.jpg" alt="allan" style="border-radius:100px;border:#6E6E6E 1px solid" class="w3-image"
+                width="350" height="350">
+            <div style="font-size:1.75em;padding-top:2em">
+                <a href="mailto:allanserna@gatech.edu"><i class="fa fa-send w3-hover-opacity"></i></a>
+                <a href="./docs/resume.pdf" target="_blank" download><i
+                        class="fa fa-file-pdf-o w3-hover-opacity"></i></a>
+                <a href="https://www.github.com/emanuallan/" target="_blank"><i
+                        class="fa fa-github w3-hover-opacity"></i></a>
+                <a href="https://www.linkedin.com/in/allan-serna/" target="_blank"><i
+                        class="fa fa-linkedin w3-hover-opacity"></i></a>
+                <a href="https://twitter.com/emanuallan" target="_blank"><i
+                        class="fa fa-twitter w3-hover-opacity"></i></a>
+            </div>
         </header>
 
 
         <!-- About Section -->
         <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-            <h2 class="w3-text-light-grey"> <span style="color: #BE2BFD"> about</span> me </h2>
+            <h2 class="w3-text-black"> <b>about</b> me. </h2>
             <hr style="width:200px" class="w3-opacity">
-            <p>Prior to pursuing a Computer Science Degree at Georgia Tech, I gained a curiosity for technology and
-                programming from my initial exposure to online games as a child. Early online community games such as
-                Millsberry, Runescape, and Club Penguin, to name a few, gaged my interest in learning on how programs,
-                such as games, can bring communities together. And eventually, initial innovations in social media
-                platforms such as MySpace and
-                Facebook demonstrated to me the potential that technology had. </p>
-            <p>Though, contradictory to what this background suggests, I grew up in school highly influeced by the arts.
-                Having
-                spent a majority of my time in school learning and practicing art, I was able to gain fundamental
-                visual arts skills that I now apply to my current work. I treat the front-end of my work as my canvas,
-                always
-                making sure that it is ready for a gallery-style presentation. Due to my enjoyment of technology and
-                the arts, this eventually led me to self-venture into graphic design, photoshop, and video and audio
-                editing where I could practice both of my passions. </p>
-            <p>I decided to pursue a STEM field in high
-                school and knew that computer science was my field of action because of its great calling for
-                technological advancement and creativity. This decision led me to Georgia Tech where I have been
-                attending since 2015. The rest of my story would be more fun to explain with pictures, therefore, I
-                invite you to learn more about me through my hobbies, volunteer work, and involvement on campus, down
-                below. Thank you.
+            <p>I build and crash things for a living — fortunately, code isn’t expensive.</p>
+
+
+
+            <h3 class="w3-padding-16 w3-text-black">my <b>skills</b>.</h3>
+            <h3> Programming Languages: </h3>
+            <p>JavaScript, HTML, CSS, Java, Python, GoLang, D3, C#, XML,
+                Processing, C,
+                Swift
             </p>
-            <h3 class="w3-padding-16 w3-text-light-grey">my skills.</h3>
-            <p class="w3-wide">Photography</p>
+            <h3> Frameworks, Libraries, & IDE's: </h4>
+                <p>
+                    ReactJS, Redux, Chart.js, XCode, Android Studio, Fastify, Xamarin
+                </p>
+                <h3> Applications: </h3>
+                <p>
+                    Unity, Postman, Adobe Photoshop, Pixlr, GarageBand, Final Cut Pro, Microsoft Office
+                </p>
+                <h3> Additional Skills: </h3>
+                <p>
+                    Graphic Design, Visual Medias, Video Production, Audio Production, Customer Service Background,
+                    Interpreting/Translating (Spanish/English)
+                </p>
 
-            <p class="w3-wide">Web Design</p>
+                <!-- Experience -->
+                <h3 class="w3-padding-24 w3-text-black">my <b>experience</b>.</h3>
+                <img src="./img/new-balance.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right"
+                    style="width:90px">
+                <h3> Front-End Web Developer. <span style="font-size:60%"> Aug. 2019 - Dec. 2019.</span></h3>
+                <p><span class="w3-large w3-margin-right" style="color: #ff0101"> New Balance.</span> St. Louis,
+                    MO.</p>
+                <p style="margin-top:5%"> - Informed that my role will be heavily involved with
+                    the main web page of newbalance.com. </p>
+                <p> - Will be working directly with New Balance's team of Graphic Designers to deliver a
+                    unique online experience for New Balance customers. </p>
+                <br><br>
 
-            <p class="w3-wide">Photoshop</p>
+                <img src="./img/dispersive-logo.png" alt="Avatar" class="w3-left w3-circle w3-margin-right"
+                    style="width:90px">
+                <h3> Full-Stack Web Developer. <span style="font-size:60%"> May. 2019 - Aug. 2019.</span></h3>
+                <p><span class=" w3-large w3-margin-right" style="color:#4666FF"> Dispersive Networks.</span>
+                    Alpharetta,
+                    GA. </p>
+                <p style="margin-top:5%"> - Initiated the React web application for the company's upcoming release
+                    of <a href="https://dispersivetech.squarespace.com/service-providers" target="_blank"
+                        class="w3-hover-text-blue">Service Provider</a> 5.0
+                    which included a management system (CRUD) of the clientel's devices.
+                </p>
+                <p> - Responsible for building the interactive visual demo of the workflow for the new version of
+                    Service Provider.</p>
+                <p> - Built and used REST API's with GoLang and performed management of the API's using
+                    Postman. </p><br><br>
+                <img src="./img/gt.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:90px">
+                <h3> WebDev Services Student Administrator. <span style="font-size:60%"> Jan. 2019 - May
+                        2015.</span>
+                </h3>
+                <p><span class="w3-large w3-margin-right" style="color:#B3A26A">GT Technology Services Organization.
+                    </span>
+                    Atlanta, GA.</p>
+                <p style="margin-top:5%"> - Administered faculty and staff webpage databases through phpMyAdmin and
+                    Apache and mySQL servers.
+                </p>
+                <p> - Configured virtual machines as development environments with CentOS, PHP7, and Drupal7.</p>
+                <p> - Designed the default webpage used within our department with Adobe Photoshop. </p>
 
-            <!-- Testimonials -->
-            <h3 class="w3-padding-24 w3-text-light-grey">my experience.</h3>
-            <img src="./img/new-balance.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right"
-                style="width:90px;border-left: 4px #E41837 solid">
-            <p><span class="w3-large w3-margin-right"> Front-End Web Developer.</span> <span style="color: #ff0101">New
-                    Balance.</span> </p>
-            <p>Jane Doe saved us from a web disaster.</p><br><br>
+                <br><br>
+                <img src="./img/gt.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:90px">
+                <h3> Helpdesk Technical Associate. <span style="font-size:60%"> Jan. 2017 - Jan. 2019.</span></h3>
+                <p><span class="w3-large w3-margin-right" style="color:#B3A26A"> GT Technology Services
+                        Organization.
+                    </span> Atlanta, GA. </p>
+                <p style="margin-top:5%"> - Reviewed hardware and software issues with student, faculty, and staff
+                    laptops, and helped them
+                    find a
+                    quick resolution through in-person visits or via email.</p>
+                <p> - Managed open tickets and completed thorough documentation of the issue at hand and identified
+                    if
+                    there was any need for an issue to be escaleted to a senior
+                    technician. </p>
 
-            <img src="./img/dispersive-logo.png" alt="Avatar" class="w3-left w3-circle w3-margin-right"
-                style="width:90px;border-left: 4px #0081FF solid">
-            <p><span class=" w3-large w3-margin-right"> Full-Stack Web Developer.</span> <span
-                    style="color:#4666FF">Dispersive Networks.</span> </p>
-            <p>No one is better than Jane Doe.</p><br><br>
-            <img src="./img/gt.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right"
-                style="width:90px;border-left: 4px grey solid">
-            <p><span class="w3-large w3-margin-right">WebDev Services Student Administrator.</span> <span
-                    style="color:#F5D580">Georgia Tech College of Computing - TSO. </span></p>
-            <p>No one is better than Jane Doe.</p>
+                <br>
 
-            <br>
+                <h3 class="w3-padding-24 w3-text-black">my <b>education</b>.</h3>
+                <img src="./img/gt-2.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:90px">
+                <h3>Georgia Institute of Technology.<span style="font-size:60%"> Aug. 2015 - Present.</span></h3>
+                <p><span class="w3-large w3-margin-right" style="color:#B3A26A">Bachelor of Science in Computer
+                        Science.</span> Atlanta, GA.</p>
+                <p style="margin-top:5%"> - Minor: Sports, Society, and Technology from the GT School of History and
+                    Sociology </p>
+                <p> - Cumulative GPA: 3.3, Honors.</p>
+                <p> - Threads: <a href="http://www.catalog.gatech.edu/programs/media-people-computer-science-bs/"
+                        target="_blank" class="w3-hover-text-yellow">People & Media</a></p>
+                <p> - Anticipated Graduation Date: May 2020 </p>
 
-            <a href="./docs/resume.pdf" target="_blank" download><button
-                    class="w3-button w3-light-grey w3-padding-large w3-section">
-                    <i class="fa fa-download"></i> Download Resume
-                </button></a>
-            <!-- End About Section -->
+                <br><br>
+
+                <img src=" ./img/hfa.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:90px">
+                <h3>Hume-Fogg Academic High School. <span style="font-size:60%"> Aug. 2011 - May 2015.</span> </h3>
+                <p><span class="w3-large w3-margin-right" style="color:#4666FF">High School and Cambridge Research
+                        Diploma.</span> Nashville, TN.</p>
+                <p style="margin-top:5%"> - Graduated Top 10% of the class from the #49 Nationally Ranked HS in the
+                    U.S.
+                </p>
+                <p> - Performed Cambridge Research on the immigration from Latin America to the United States. </p>
+                <p> - 2x All-District, 2x All-Regional, 2x All Mid-State, 1x All-State, 1x All-Star Athlete for
+                    Men's
+                    Varsity Soccer. </p>
+
+                <!-- End About Section -->
         </div>
 
 
         <!-- Portfolio Section -->
-        <div class="w3-padding-64 w3-content" id="projects">
-            <h2 class="w3-text-light-grey">my <span style="color: #BE2BFD">projects</span>.</h2>
+        <div class=" w3-padding-64 w3-content" id="projects">
+            <h2 class="w3-text-black">my <b>projects</b>.</h2>
             <hr style="width:200px" class="w3-opacity">
 
             <!-- Grid for projects -->
@@ -172,17 +216,36 @@
             <!-- End Portfolio Section -->
         </div>
 
-
         <!-- Contact Section -->
-        <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-            <h2 class="w3-text-light-grey"><span style="color: #BE2BFD">contact</span> me.</h2>
+        <div class="w3-padding-64 w3-content w3-text-grey" id="resume">
+            <h2 class="w3-text-black">my <b>resume</b>.</h2>
             <hr style="width:200px" class="w3-opacity">
 
             <div class="w3-section">
-                <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Atlanta, Georgia, US
+                <iframe src="./docs/resume.pdf" width="100%" height="500px">
+                </iframe>
+
+                <a href="./docs/resume.pdf" target="_blank" download><button
+                        class="w3-button w3-light-grey w3-padding-large w3-section">
+                        <i class="fa fa-download"></i> Download Resume
+                    </button></a>
+            </div>
+            <!-- End Resume Section -->
+        </div>
+
+
+
+
+        <!-- Contact Section -->
+        <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+            <h2 class="w3-text-black"><b>contact</b> me.</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+            <div class="w3-section">
+                <p><i class="fa fa-map-marker fa-fw w3-text-black w3-xxlarge w3-margin-right"></i> Atlanta, Georgia, US
                 </p>
-                <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> +16155549168 </p>
-                <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i>
+                <!-- <p><i class="fa fa-phone fa-fw w3-text-black w3-xxlarge w3-margin-right"></i> +16155549168 </p> -->
+                <p><i class="fa fa-envelope fa-fw w3-text-black w3-xxlarge w3-margin-right"> </i>
                     allanserna@gatech.edu
                 </p>
             </div>
@@ -191,12 +254,16 @@
 
 
         <!-- Footer -->
-        <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-            <a href="mailto:allanserna@gatech.edu"><i class="fa fa-envelope w3-hover-opacity"></i></a>
+        <footer class="w3-content w3-padding-64 w3-text-black w3-xlarge" style="text-align: right">
+            <hr>
+            <a href="mailto:allanserna@gatech.edu"><i class="fa fa-send w3-hover-opacity"></i></a>
+            <a href="./docs/resume.pdf" target="_blank" download><i class="fa fa-file-pdf-o w3-hover-opacity"></i></a>
+            <a href="https://www.github.com/emanuallan/" target="_blank"><i
+                    class="fa fa-github w3-hover-opacity"></i></a>
             <a href="https://www.linkedin.com/in/allan-serna/" target="_blank"><i
                     class="fa fa-linkedin w3-hover-opacity"></i></a>
             <a href="https://twitter.com/emanuallan" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
-            <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+            <p class="w3-medium">Powered by <a href="https://github.com/emanuallan/allanserna.github.io" target="_blank"
                     class="w3-hover-text-green">github</a></p>
             <!-- End footer -->
         </footer>
